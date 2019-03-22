@@ -1,0 +1,13 @@
+#wpecify docker compose version
+version: '3'
+
+#services provided
+services:
+    #specify the service of web
+    web: 
+        #web is a services, you can build this services from the directory ./web
+        #wehre the docker file located, it means in this direc you must have a dockeer file
+        build: ./web
+        #
+        ports:
+            "5000: 5000"
