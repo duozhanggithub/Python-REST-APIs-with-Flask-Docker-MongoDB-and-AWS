@@ -4,7 +4,7 @@ Python REST APIs with Flask, Docker, MongoDB, and AWS...
 For machine learning deployment purpose
 refer to https://www.udemy.com/python-rest-apis-with-flask-docker-mongodb-and-aws-devops/learn/v4/content
 
-This course use ubuntu for demo, so summarize some of the common Linux commands here
+1. This course use ubuntu for demo, so summarize some of the common Linux commands here
 
 ls: list files in a directory
 
@@ -25,7 +25,7 @@ cp: copy, sudo cp ../app.py . cope app.py into a directory
 touch: create or modify a file
 
 
-How to dockerizing an application:
+2. How to dockerizing an application:
 
 sudo docker-compose build
 
