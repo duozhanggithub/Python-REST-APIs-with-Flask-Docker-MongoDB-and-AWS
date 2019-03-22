@@ -1,0 +1,13 @@
+Most common Linux commands
+ls: list files in a directory
+cd: change directory
+cat: show the content of file, or merge several files
+sudo: allows users to run programs with the security privileges of another user, by default the superuser
+apt: Advanced Package Tool, handle the installation and removal of software on Debian, Ubuntu, and related Linux distributions
+apt install, apt update, apt remove...
+
+
+REST API: representational state transfer
+Flask restapi: very popular python library for restapi development
+
+![alt text]
