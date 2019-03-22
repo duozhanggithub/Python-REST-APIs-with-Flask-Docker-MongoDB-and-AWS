@@ -6,8 +6,5 @@ sudo: allows users to run programs with the security privileges of another user,
 apt: Advanced Package Tool, handle the installation and removal of software on Debian, Ubuntu, and related Linux distributions
 apt install, apt update, apt remove...
 
-
 REST API: representational state transfer
 Flask restapi: very popular python library for restapi development
-
-![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/Run%20the%20first%20flask%20app.png)
