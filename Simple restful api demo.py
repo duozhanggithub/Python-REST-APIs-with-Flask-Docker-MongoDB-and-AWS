@@ -1,7 +1,25 @@
+General steps
+1. import necessary libraries
+
+2. initialize app and api
+   use app = Flask(__name__)
+   and api = Api(app)
+
+3. define class ToDo(Resource), inherit Resouce, in the class we can further defien methods such as post, get...
+   class Todo(Resource)>
+        def get():
+            
+        def post():
+            
+4. use api.add_resource ass routes, corresponding to url
+   api.add_resource(ToDo, "/todo")
+
+    
+1. import necessary libraries
 from flask import Flask, jsonify, request
 from flask_restful import Api, Resource
 
-
+2. initialize app and api
 app = Flask(__name__)
 api = Api(app)
 
@@ -20,6 +38,7 @@ def checkPostedData(postedData, functionName):
         else:
             return 200
 
+3. define class ToDo(Resource), inherit Resouce, in the class we can further defien methods such as post, get...
 class Add(Resource):
     def post(self):
         #If I am here, then the resouce Add was requested using the method POST
@@ -147,8 +166,7 @@ class Divide(Resource):
         }
         return jsonify(retMap)
 
-
-
+4. use api.add_resource ass routes, corresponding to url
 api.add_resource(Add, "/add")
 api.add_resource(Subtract, "/subtract")
 api.add_resource(Multiply, "/multiply")
