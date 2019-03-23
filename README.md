@@ -1,6 +1,6 @@
 # Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS
 
-# 1. This course use ubuntu for demo, so summarize some of the common Linux commands here
+# This course use ubuntu for demo, so summarize some of the common Linux commands here
 
 ls: list files in a directory
 
@@ -23,7 +23,7 @@ touch: create or modify a file
 
 # How to dockerizing an application:
 
-Code (Dockerizing application demo https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/tree/master/Dockerizing%20application%20demo)
+Code (refer to Dockerizing application demo https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/tree/master/Dockerizing%20application%20demo)
 
 Run the docker compose file>
 
