@@ -25,7 +25,7 @@ touch: create or modify a file
 
 Code (refer to Dockerizing application demo https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/tree/master/Dockerizing%20application%20demo)
 
-Run the docker compose file>
+Run the docker compose file:
 
 sudo docker-compose build
 
