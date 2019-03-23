@@ -1,6 +1,6 @@
 # Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS
 
-# This course use ubuntu for demo, so summarize some of the common Linux commands here
+# Used ubuntu for demo, so summarize some of the common Linux commands here
 
 ls: list files in a directory
 
