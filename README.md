@@ -62,3 +62,6 @@ Insert document into collection: db.COLLECTION_NAME.insert(document)
 
 Query documents: df.COLLECTION_NAME.find().pretty(), the pretty function make the query easy to read
 
+More queries:
+
+![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery.png)
