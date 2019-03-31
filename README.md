@@ -78,4 +78,4 @@ Projection: selecting only the necessary data rather than selecting the whole da
 
 Limiting records: db.COLLECTION_NAME.find().limit(NUMBER)
 
-Sorting: 
+Sorting: db.COLLECTION_NAME.find().sort({KEY: 1}), 1 is ascending
