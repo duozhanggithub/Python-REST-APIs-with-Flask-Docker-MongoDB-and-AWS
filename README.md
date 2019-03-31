@@ -47,3 +47,9 @@ Document is a set of key value pairs and the documents have dynamic schema. Very
 ![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/example%20of%20documents.png)
 
 Relational database has a typical schema design that shows a number of tables and the relationships between these tables while in MongoDB there is no concept of relationship.
+
+Create or switch to the database: use mydb
+
+Write documents into db: db.movie.insert({"name":"xyz"})
+
+Delete database: db.dropDatabase()
