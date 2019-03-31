@@ -42,3 +42,4 @@ Collection is a group of Mongo documents and it's equivalent of an RDBMS table. 
 
 Document is a set of key value pairs and the documents have dynamic schema. Very similar to JSON
 
+![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/SQL%20and%20NoSQL%20database.png)
