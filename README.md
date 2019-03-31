@@ -69,3 +69,13 @@ More queries:
 ![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery2.png)
 
 We can also use $AND, $OR etc.
+
+Update: db.COLLECTION_NAME.update(SECTION_CRITERIA, UPDATED_DATA), set 'multi' parameter to 'True' if we want to update multiple documents
+
+Deleting documents: db.COLLECTION_NAME.remove(DELETION_CRITERIA)
+
+Projection: selecting only the necessary data rather than selecting the whole data of the document. Need to set a list of fields with value 1 or 0 and this is used to show the fields while 0 is used to hide the field.
+
+Limiting records: db.COLLECTION_NAME.find().limit(NUMBER)
+
+Sorting: 
