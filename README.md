@@ -53,3 +53,12 @@ Create or switch to the database: use mydb
 Write documents into db: db.movie.insert({"name":"xyz"})
 
 Delete database: db.dropDatabase()
+
+Create a collection: db.createColelction(name, options), options is a documents, and optional
+
+Drop collection: db.collection.drop(), db.COLLECTION_NAME.drop()
+
+Insert document into collection: db.COLLECTION_NAME.insert(document)
+
+Query documents: df.COLLECTION_NAME.find().pretty(), the pretty function make the query easy to read
+
