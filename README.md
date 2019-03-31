@@ -36,10 +36,12 @@ sudo docker-compoase up
 
 MongoDB server > Database > Collections > Documents
 
+![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/SQL%20and%20NoSQL%20database.png)
+
 Database is a physical container for collections where each database gets its own set of files of the file system.
 
 Collection is a group of Mongo documents and it's equivalent of an RDBMS table. Collections do not enforce schema.
 
 Document is a set of key value pairs and the documents have dynamic schema. Very similar to JSON
 
-![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/SQL%20and%20NoSQL%20database.png)
+![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/example%20of%20documents.png)
