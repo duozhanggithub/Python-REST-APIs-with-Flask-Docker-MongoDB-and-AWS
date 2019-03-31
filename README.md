@@ -65,3 +65,5 @@ Query documents: df.COLLECTION_NAME.find().pretty(), the pretty function make th
 More queries:
 
 ![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery.png)
+
+![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery2.png)
