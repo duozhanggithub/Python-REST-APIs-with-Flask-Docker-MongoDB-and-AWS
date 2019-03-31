@@ -30,3 +30,15 @@ Run the docker compose file:
 sudo docker-compose build
 
 sudo docker-compoase up
+
+
+# MongoDB
+
+MongoDB server > Database > Collections > Documents
+
+Database is a physical container for collections where each database gets its own set of files of the file system.
+
+Collection is a group of Mongo documents and it's equivalent of an RDBMS table. Collections do not enforce schema.
+
+Document is a set of key value pairs and the documents have dynamic schema. Very similar to JSON
+
