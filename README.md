@@ -67,3 +67,5 @@ More queries:
 ![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery.png)
 
 ![alt text](https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/blob/master/MongodbQuery2.png)
+
+We can also use $AND, $OR etc.
