@@ -7,10 +7,16 @@ from pymongo import MongoClient
 app = Flask(__name__)
 api = Api(app)
 
+# Create a MongoDB client
 client = MongoClient("mongodb://db:27017")
+
+# In the client, create a database aNewDB
 db = client.aNewDB
+
+# Create a database collection
 UserNum = db["UserNum"]
 
+# Insert document into collection
 UserNum.insert({
     'num_of_users':0
 })
