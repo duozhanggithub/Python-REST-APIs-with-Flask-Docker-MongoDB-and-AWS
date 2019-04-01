@@ -4,6 +4,7 @@ services:
     build: ./web
     ports:
       - "5000:5000"
+    #Links, this web service is dependent on this db service so we have to build the db first
     links:
       - db
   db:
