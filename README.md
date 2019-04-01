@@ -25,7 +25,44 @@ touch: create or modify a file
 
 Code (refer to Dockerizing application demo https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/tree/master/Dockerizing%20application%20demo)
 
-Run the docker compose file:
+1. Docker file (with detailed explanations)
+
+#download python 3 from docker hub
+FROM python:3 #download not only python 3, but also ubuntu operating system
+
+#Tell the image(ubuntu OS with python 3 installed), the working directory is /usr/src/app
+WORKDIR /usr/src/app
+
+#copy requirements.txt from local machine (the directory include the docker file) 
+#to current working directory /usr/src/app
+COPY requirements.txt .
+
+#install libraries listed in the requirements.txt on the Ubuntu machine
+RUN pip install --no-cache-dir -r requirements.txt
+
+#copy all the files from local machine to the ubuntu 
+COPY . .
+
+#run python app.py
+CMD ["python", "app.py"]
+
+2. Docker compose file:
+
+#wpecify docker compose version
+version: '3'
+
+#services provided
+services:
+    #specify the service of web
+    web: 
+        #web is a services, you can build this services from the directory ./web
+        #wehre the docker file located, it means in this direc you must have a docker file
+        build: ./web
+        #
+        ports:
+            "5000: 5000"
+
+3. Run the docker compose file:
 
 sudo docker-compose build
 
