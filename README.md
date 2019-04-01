@@ -79,3 +79,9 @@ Projection: selecting only the necessary data rather than selecting the whole da
 Limiting records: db.COLLECTION_NAME.find().limit(NUMBER)
 
 Sorting: db.COLLECTION_NAME.find().sort({KEY: 1}), 1 is ascending
+
+# Use MongoDB in web application (https://github.com/duozhanggithub/Python-REST-APIs-with-Flask-Docker-MongoDB-and-AWS/tree/master/MongoDB-Building-a-Simple-Application-to-Keep-Track-of-Number-of-Users)
+
+Links in the dockerfile, connect the web services with db services
+
+pymongo
